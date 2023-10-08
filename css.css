@@ -1,0 +1,93 @@
+/* This work for bassic cod Css*/
+*{margin:0;Padding:0;box-sizing:border-box;}
+	html{	scroll-behavior:smooth;}
+	body{	font-family: 'Inter', sans-serif;	 font-size:14px; background:#ebf1eb; color:#222;}
+	p{		line-height:24px; 	 font-size:14px; font-weight:400; color: #555; }
+	b{   	font-size:15px; font-weight:600;}
+	h1{	    font-size:34px;  font-weight:700;}
+	h2{ 	font-size:28px; 	font-weight:800;}
+	h3{     font-size:18px; 	font-weight:600;}
+	h4{		font-size:16px;  }
+	input{	font-size:14px;	font-family:'Inter' , sans-serif;font-weight:400;}
+	a{		color:inherit; text-decoration:none;  font-weight:400;}
+	li{		list-style:none;font-weight:400;}
+	button{	font-family:'Inter' , sans-serif; display:block;font-size:15px; font-weight:400;color:inherit;}
+	
+/* Css Key , Bassic key Closses */ 
+
+nav{background:white; width: 250px; height:100vh; box-shadow: 0px 0px 14px #0000000d; position:fixed;overflow:hidden;  text-align:center; }
+	nav .NavThm{background:#f600c4; width: 250px; height:190px;  position:absolute; border-radius: 20%  ; margin-top: -90px; z-index:-2; }
+	nav .image{ width: 100px; height:100px;   border-radius: 50% ;   z-index:2; margin:auto; background:white; padding: 3px; margin-top: 48px;  }
+	nav .image img{display:block;  width: 94px; height:94px;   border-radius: 50% ;  z-index:2; }
+	nav h3{ margin-top: 10px;  }
+	nav p {font-size: 13px;  }
+	nav .Links { width: 92%; margin:auto; margin-top: 70px; }
+	nav .Links  li {  margin-top: 5px;  }
+	nav .Links  li a{ display:block;  padding: 14px; background: ; border-radius: 10px; text-align: left; padding-left: 40px; transition:all .3s;  font-family: 'Inter', sans-serif; font-weight:400;}
+	nav .Links  li a i{ width: 22px;  }
+	nav .Links  li a:hover{ background:#eee ; }
+	nav .SocalLink { position:absolute; bottom: 10px; padding-left: 55px;  }
+	nav .SocalLink a{display:block; float:left;  padding: 6px; width: 30px;  border-radius: 6px; text-align: center;  font-size: 16px; margin-right: 4px;  }
+	nav .SocalLink a:hover{background:#eee; }
+	/* navtion css closs */
+	.AllScreen{padding-left: 250px; }
+	/* all screen css */
+	#Home{background:linear-gradient(90deg, #f6f5ff, white); height:100vh; width: 100%; padding:0px 50px; display:flex; align-items: center;  }
+	#Home .leftHOme{ width: 55%;   }
+	#Home .leftHOme h1{ font-size: 70px; font-weight: 900; margin-top: 24px;   }
+	#Home .leftHOme h2{  margin-top: 24px;   }
+	#Home .leftHOme p{  margin-top: 24px;   }
+	#Home .leftHOme .links{  margin-top: 24px; overflow: hidden;    }
+	#Home .leftHOme .links a{ display:block; float: left; font-size: 17px;  margin-right: 10px;  }
+	#Home .leftHOme button{  margin-top: 60px;  display:block; padding: 10px; text-align: center; width: 100px; border:1px solid #555; background:none; border-radius: 20px;   }
+	#Home .rightHOme {   }
+	#Home .rightHOme img{ width: 380px;   }
+	/* close home css */
+	#About{padding:50px 50px;}
+	.TitleSentext  {text-align:center; }
+	.TitleSentext  span{color:#f600c4; }
+	.TitleSentext  .text{display:flex; align-items: center; justify-content: center; gap: 10px; margin-top: 10px;  }
+	.TitleSentext  .Bdr{ width: 40px; height: 3px; background:#f600c4; border-radius: 3px; }
+	/* title is all title css */
+	#About .MyDtels{display:flex; align-items: center; justify-content: space-between;gap: 30px; padding: 50px 0px; }
+	#About .MyDtels .leftImage img{width: 300px; height: 400px; object-fit: cover; border-radius: 26px;  }
+	#About .MyDtels .leftImage { }
+	#About .MyDtels .Textme { padding: 40px; background:white; border-radius: 26px; height: 400px;  }
+	#About .MyDtels .Textme h3{text-transform:uppercase; font-weight: 800;   }
+	#About .MyDtels .Textme b {display: block; margin-top: 6px; }
+	#About .MyDtels .Textme .Txr{width: 80px; background: #940176; height: 3px; border-radius: 4px; overflow:hidden; margin-top: 10px;  }
+	#About .MyDtels .Textme .Txr .Mntxr{width: 60px; background: #f600c4; height: 3px;}
+	#About .MyDtels .Textme p {margin-top: 10px;  }
+	#About .MyDtels .Textme .FormType {margin-top: 10px; overflow:hidden; width: 500px ; }
+	#About .MyDtels .Textme .FormType .left{float:left;   }
+	#About .MyDtels .Textme .FormType .Right{float:right;   }
+	#About .MyDtels .Textme .FormType .txt{display:flex;  align-items: center;  margin-top: 5px;}
+	#About .MyDtels .Textme .FormType .txt i{ padding-right: 10px;  }
+	#About .MyDtels .Textme .FormType .txt b{margin-top: 0px; padding-right: 10px;  }
+	#About .MyDtels .Textme img {margin-top: 30px; width: 140px ; opacity: .4;   }
+	#About .MyDtels .Style  { background:#ff00cb0a; width: 220px; height: 220px;   border-radius: 26px; position:absolute; margin-top: -330px;  margin-left: 198px; z-index:-2; transform:rotate(30deg) }
+	#About .MyDtels .Style2  { margin-top: 330px;  margin-left: 538px; z-index:-2;  }
+	.Second_About {padding: 40px 60px ; display:flex; gap: 90px; background: white;  border-radius: 26px;  }
+	.Second_About .LeftSkill{  width: 50%; padding-bottom: 10px;  }
+	.Second_About .LeftSkill .Skill{ margin-top: 28px;    }
+	.Second_About .LeftSkill .Skill .ttl{display:block;  }
+	.Second_About .LeftSkill .Skill .Size { width: 100%; background: #ddd; height: 4px; border-radius: 4px; margin-top: 8px;  }
+	.Second_About .LeftSkill .Skill .Size .space{ width: 70%; background: #f600c4; height: 4px; border-radius: 4px;  }
+	.Second_About .LeftSkill .Skill .Size .spaceHtml{ width: 86%;  }
+	.Second_About .LeftSkill .Skill .Size .spaceJs{ width: 80%; }
+	.Second_About .LeftSkill .Skill .Size .spacebt{ width: 89%;  }
+	.Second_About .LeftSkill .Skill .Size .spacephp{ width: 74%; }
+	.Second_About .LeftSkill .Skill .Poienting { width: 50px;  float:right;  margin-top: -30px; margin-right: 30%;   }
+	.Second_About .LeftSkill .Skill .Poientinght {  margin-right: 14%;   }
+	.Second_About .LeftSkill .Skill .Poientingjs { margin-right: 20%;   }
+	.Second_About .LeftSkill .Skill .Poientingbt { margin-right: 11%;   }
+	.Second_About .LeftSkill .Skill .Poientingphp { margin-right: 26% ;   }
+	.Second_About .LeftSkill .Skill .Poienting .Line{padding: 6px;  width: 50px; background:#eee ; font-size: 15px; font-weight: 600; text-align: center;  border-radius: 6px; }
+	.Second_About .LeftSkill .Skill .Poienting .Mark{  width: 20px; background:linear-gradient(45deg, #00000000 50%, #eee 50%) ; font-size: 16px; height: 20px;margin-left: 30px; margin-bottom: -36px;  }
+	.Second_About .LeftSkill .Skill  p{  font-size: 13px; margin-top: 10px;   }
+		.Second_About .rightSkill{ width: 50%;   }
+		.Second_About .rightSkill .Knowladge{margin-top: 30px;   }
+		.Second_About .rightSkill .KNg{display: flex;  justify-content:space-between; align-items:center;  }
+		.Second_About .rightSkill .Knowladge li{margin-bottom: 18px;   }
+		.Second_About .rightSkill .Knowladge li i{width: 16px;   }
+		/* second about closs  */
